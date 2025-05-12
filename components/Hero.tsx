@@ -6,7 +6,7 @@ import { Trophy } from "lucide-react";
 
 const Hero = () => {
   return (
-    <main className="px-16 py-5 flex flex-col gap-y-3">
+    <main className="px-20 py-5 flex flex-col gap-y-3">
       <div className="grid grid-cols-7 gap-x-3 flex-1">
         <div className="col-span-5 relative">
           <div className="flex flex-col gap-y-8 absolute z-20 bg-transparent h-full w-full items-center justify-center left-0 top-0">
