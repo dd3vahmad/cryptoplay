@@ -1,4 +1,11 @@
-import { ShieldCheck } from "lucide-react";
+import {
+  Crown,
+  HeartHandshake,
+  History,
+  MessageCircle,
+  ShieldCheck,
+  Watch,
+} from "lucide-react";
 
 const Features = () => {
   const features = [
@@ -9,34 +16,34 @@ const Features = () => {
       status: "available",
     },
     {
-      icon: ShieldCheck,
-      title: "Security",
-      description: "Millitary-grade encryption and secure wallet handling",
+      icon: History,
+      title: "Bet Tracking",
+      description: "Comprehensive history and analytics",
       status: "available",
     },
 
     {
-      icon: ShieldCheck,
-      title: "Security",
-      description: "Millitary-grade encryption and secure wallet handling",
+      icon: HeartHandshake,
+      title: "Affiliate Program",
+      description: "Earn from referrals",
       status: "available",
     },
     {
-      icon: ShieldCheck,
-      title: "Security",
-      description: "Millitary-grade encryption and secure wallet handling",
+      icon: Watch,
+      title: "Live Casino",
+      description: "Real-time dealer games",
       status: "coming-soon",
     },
     {
-      icon: ShieldCheck,
-      title: "Security",
-      description: "Millitary-grade encryption and secure wallet handling",
+      icon: MessageCircle,
+      title: "Community",
+      description: "Live chat & social features",
       status: "coming-soon",
     },
     {
-      icon: ShieldCheck,
-      title: "Security",
-      description: "Millitary-grade encryption and secure wallet handling",
+      icon: Crown,
+      title: "VIP Program",
+      description: "Exclusive rewards & benefits",
       status: "available",
     },
   ];
@@ -51,12 +58,12 @@ const Features = () => {
             key={i}
             className="flex flex-col items-center justify-center gap-y-2 text-white"
           >
-            <div className="p-4 rounded-full bg-secondary text-tertiary">
-              <Icon />
+            <div className="p-4 rounded-full bg-secondary text-tertiary cursor-pointer">
+              <Icon className="hover:animate-bounce" />
             </div>
 
             <h3 className="font-semibold text-sm">{feature.title}</h3>
-            <p className="text-xs max-w-[120px] text-center">
+            <p className="text-xs max-w-[150px] text-center">
               {feature.description}
             </p>
           </div>
