@@ -14,14 +14,16 @@ const Hero = () => {
               Play to <span className="text-tertiary">Earn</span> in Style
             </h1>
 
-            <p className="text-sm text-white max-w-lg text-center">
+            <p className="text-white max-w-xl text-center">
               Experience the future of online gaming with CryptoPlay. Connect
               your wallet and start winning today.
             </p>
 
             <div className="flex items-center gap-3">
-              <Button className="bg-tertiary text-white">Start Playing</Button>
-              <Button className="bg-transparent text-tertiary border border-tertiary">
+              <Button className="bg-tertiary text-white cursor-pointer hover:bg-tertiary hover:opacity-80">
+                Start Playing
+              </Button>
+              <Button className="bg-transparent text-tertiary border border-tertiary cursor-pointer">
                 <Trophy /> View Games
               </Button>
             </div>
