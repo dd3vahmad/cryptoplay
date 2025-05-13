@@ -29,7 +29,7 @@ const Activities = () => {
   return (
     <div className="w-full flex overflow-auto flex-nowrap justify-between gap-6 mb-5 px-20">
       {activities.map((activity, i) => (
-        <div className="flex p-3 rounded bg-secondary gap-x-4 w-[250px]">
+        <div className="flex px-4 py-3 rounded bg-secondary gap-x-4 w-[260px]">
           <Image
             key={i}
             src={activity.thumbnail}
